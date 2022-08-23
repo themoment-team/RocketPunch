@@ -20,6 +20,10 @@ footer{
                 font-size: 14px;
                 text-decoration: none;
                 color: #3c4858;
+                transition: ease-in-out 0.2s;
+            }
+            .announce:hover{
+                color: #4e61ff;
             }
         }
         .icons{
@@ -27,7 +31,9 @@ footer{
             i{
                 padding: 3.4px 0 8px;
                 margin-right: 16px;
-                color: #6e7980
+                color: #6e7980;
+                cursor: pointer;
+                font-size: 20px;
             }
         }
     }
@@ -49,6 +55,10 @@ footer{
             a{
                 text-decoration:underline;
                 color: #3c4858;
+                cursor: pointer;
+            }
+            a:hover{
+                color: #4e61ff;
             }
         }
         .BottomInform{

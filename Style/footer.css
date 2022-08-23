@@ -23,6 +23,10 @@ footer .topOfBottom .announces .announce {
   font-size: 14px;
   text-decoration: none;
   color: #3c4858;
+  transition: ease-in-out 0.2s;
+}
+footer .topOfBottom .announces .announce:hover {
+  color: #4e61ff;
 }
 footer .topOfBottom .icons {
   padding: 14px 10px;
@@ -31,6 +35,7 @@ footer .topOfBottom .icons i {
   padding: 3.4px 0 8px;
   margin-right: 16px;
   color: #6e7980;
+  cursor: pointer;
 }
 footer .informations {
   margin-top: 14px;
@@ -52,6 +57,10 @@ footer .informations .topInform p {
 footer .informations .topInform a {
   text-decoration: underline;
   color: #3c4858;
+  cursor: pointer;
+}
+footer .informations .topInform a:hover {
+  color: #4e61ff;
 }
 footer .informations .BottomInform {
   display: flex;
