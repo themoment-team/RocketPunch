@@ -2,7 +2,7 @@ footer {
   border-top: 0.5px solid #d9dfeb;
   margin-top: 42px;
   padding: 16px;
-  width: 100%;
+  width: 98%;
   color: #28323c;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,6 @@ footer {
   align-items: center;
 }
 footer .topOfBottom {
-  width: 1080px;
   display: flex;
 }
 footer .topOfBottom .announces {
@@ -34,7 +33,6 @@ footer .topOfBottom .icons i {
   color: #6e7980;
 }
 footer .informations {
-  width: 1080px;
   margin-top: 14px;
 }
 footer .informations p {
@@ -42,7 +40,6 @@ footer .informations p {
   font-size: 12px;
 }
 footer .informations .topInform {
-  width: 1080px;
   position: relative;
   padding: 0 10px;
   color: #6e7980;
@@ -57,16 +54,12 @@ footer .informations .topInform a {
   color: #3c4858;
 }
 footer .informations .BottomInform {
-  width: 1080px;
   display: flex;
   padding: 0 10px;
 }
 footer .informations .BottomInform p {
   margin-right: 12px;
   color: #6e7980;
-}
-footer .footOffoot {
-  width: 1080px;
 }
 footer .footOffoot p {
   margin: 0;

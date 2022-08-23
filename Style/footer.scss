@@ -2,14 +2,13 @@ footer{
     border-top: 0.5px solid #d9dfeb;;
     margin-top: 42px;
     padding: 16px;
-    width: 100%;
+    width: 98%;
     color: #28323c;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     .topOfBottom{
-        width: 1080px;
         display: flex;
         .announces{
             padding: 14px 10px;
@@ -33,14 +32,12 @@ footer{
         }
     }
     .informations{
-        width: 1080px;
         margin-top: 14px;
         p{
             margin: 0;
             font-size: 12px;
         }
         .topInform{
-            width: 1080px;
             position: relative;
             padding: 0 10px;
             color: #6e7980;
@@ -55,7 +52,6 @@ footer{
             }
         }
         .BottomInform{
-            width: 1080px;
             display: flex;
             padding: 0 10px;
             p{
@@ -65,7 +61,6 @@ footer{
         }
     }
     .footOffoot{
-        width: 1080px;  
         p{
             margin: 0;
             font-size: 12px;
