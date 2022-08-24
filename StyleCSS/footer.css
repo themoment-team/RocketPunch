@@ -1,0 +1,79 @@
+footer {
+  border-top: 0.5px solid #d9dfeb;
+  margin-top: 42px;
+  padding: 16px;
+  width: 98%;
+  color: #28323c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .topOfBottom {
+  display: flex;
+}
+footer .topOfBottom .announces {
+  padding: 14px 10px;
+  width: 920px;
+  height: 33px;
+}
+footer .topOfBottom .announces .announce {
+  margin-right: 4px;
+  padding: 3px 0 14px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #3c4858;
+  transition: ease-in-out 0.2s;
+}
+footer .topOfBottom .announces .announce:hover {
+  color: #4e61ff;
+}
+footer .topOfBottom .icons {
+  padding: 14px 10px;
+}
+footer .topOfBottom .icons i {
+  padding: 3.4px 0 8px;
+  margin-right: 16px;
+  color: #6e7980;
+  cursor: pointer;
+  font-size: 20px;
+}
+footer .informations {
+  margin-top: 14px;
+}
+footer .informations p {
+  margin: 0;
+  font-size: 12px;
+}
+footer .informations .topInform {
+  position: relative;
+  padding: 0 10px;
+  color: #6e7980;
+  display: flex;
+  margin: 0;
+}
+footer .informations .topInform p {
+  margin-right: 12px;
+}
+footer .informations .topInform a {
+  text-decoration: underline;
+  color: #3c4858;
+  cursor: pointer;
+}
+footer .informations .topInform a:hover {
+  color: #4e61ff;
+}
+footer .informations .BottomInform {
+  display: flex;
+  padding: 0 10px;
+}
+footer .informations .BottomInform p {
+  margin-right: 12px;
+  color: #6e7980;
+}
+footer .footOffoot p {
+  margin: 0;
+  font-size: 12px;
+  padding: 20px 10px 0 10px;
+  color: #6e7980;
+}/*# sourceMappingURL=footer.css.map */
