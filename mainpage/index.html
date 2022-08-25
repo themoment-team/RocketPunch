@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="nav-logo">
+          <img src="resource/rocketpunch_logo.svg" alt="로고" class="logo" />
+        </div>
+        <div class="nav-searchbox">
+          <input
+            class="searchbox"
+            type="text"
+            placeholder="통합 검색"
+            id="searchbox"
+          />
+        </div>
+        <div class="nav-btn">
+          <button class="All-btn">사람</button>
+          <button class="All-btn">기업</button>
+          <button class="All-btn">사람</button>
+          <button class="All-btn">셀프구직</button>
+        </div>
+        <div class="nav-select">
+          <select class="nav-more">
+            <option
+              hidden=""
+              disabled="disabled"
+              selected="selected"
+              class="nav-option"
+            >
+              더보기
+            </option>
+            <option value="">광고/채용 서비스</option>
+            <option value="">블로그</option>
+          </select>
+        </div>
+        <div class="user-btn">
+          <button id="user" class="sign-in">로그인</button>
+        </div>
+        <div class="user=-btn">
+          <button id="user" class="sign-up">무료 가입</button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="section-1"></div>
+      <div class="section-2">
+        <div class="head-content">
+          <div class="title">로켓펀치에 있는 사람들과 연결해보세요.</div>
+          <div class="title-2">
+            다양한 분야의 사람들과 기업들이 교류하고 있는 로켓펀치 커뮤니티에
+            합류하세요!
+          </div>
+        </div>
+        <div class="user-list">
+          <div class="item">
+            <div class="profile">
+              <img
+                src="resource/유저사진-1.jpg"
+                alt="유저사진1"
+                class="profile"
+              />
+            </div>
+            <p class="name">김지현</p>
+            <p class="job-title">기획, 마케팅, 홍보 @우아한...</p>
+            <p class="introduce">
+              기획하는 마케터. 마케팅하는 기획자. 우아한형제들에서 배달의민족을
+              알리는 일을 하고 있습니다.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/유저사진-2.jpg"
+              alt="유저사진2"
+              class="profile"
+            />
+            <p class="name">김정환</p>
+            <p class="job-title">서버/웹 개발자 @네이버</p>
+            <p class="introduce">
+              프로그래밍을 사랑하는, 프로그래밍을 즐기는, 프로그래밍의 정점을
+              찍고 싶은 사람입니다.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/유저사진-3.jpg"
+              alt="유저사진3"
+              class="profile"
+            />
+            <p class="name">김하연</p>
+            <p class="job-title">UX Team Lead (팀장) @야...</p>
+            <p class="introduce">
+              User Research Process designed. Test design/Moderating/User
+              eXperience Analysis.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/유저사진-4.jpg"
+              alt="유저사진4"
+              class="profile"
+            />
+            <p class="name">김동신</p>
+            <p class="job-title">CEO @센드버드</p>
+            <p class="introduce">
+              CEO of SendBird / Paprika Lab (acq. by GREE) / Startups /
+              Technology / Design / Problem Solving
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/유저사진-5.jpg"
+              alt="유저사진5"
+              class="profile"
+            />
+            <p class="name">안재원</p>
+            <p class="job-title">Founder/CEO @큐피스트(...</p>
+            <p class="introduce">
+              Satisfy the desires of Love. 함께할 '욕망 충실한' 분들을 찾고
+              있습니다. 편하게 연락주세요!
+            </p>
+          </div>
+          <div class="item add-new">
+            <img
+              src="resource/add_personal_profile.svg"
+              alt="유저추가"
+              class="add-btn"
+            />
+            <p class="add name">내 프로필 등록</p>
+          </div>
+        </div>
+        <div class="company-list">
+          <div class="item">
+            <img src="resource/토스.png" alt="토스" class="profile" />
+            <p class="name">비바리퍼블리카(토스)</p>
+            <p class="introduce">
+              금융이 쉬워진다 Toss 토스팀은 금융의 문제를 해결하려 합니다.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/아모레퍼시픽.jpg"
+              alt="아모레퍼시픽"
+              class="profile"
+            />
+            <p class="name">아모레퍼시픽</p>
+            <p class="introduce">
+              아모레퍼시픽은 세상을 바꾸는 아름다움을 창조하는 ‘원대한
+              기업(Great Global Brand Company)’으로의 도약을 준비합니다
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/데브시스터즈.png"
+              alt="데브시스터즈"
+              class="profile"
+            />
+            <p class="name">데브시스터즈</p>
+            <p class="introduce">
+              데브시스터즈는 컨텐츠와 기술, 서비스 사업을 통해 세상을 더욱더
+              즐겁고 신나게 만드는 글로벌 엔터테인먼트 기업입니다.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/크로키닷컴.png"
+              alt="크로키닷컴"
+              class="profile"
+            />
+            <p class="name">크로키닷컴</p>
+            <p class="introduce">
+              지그재그(ZIGZAG) 여성 쇼핑몰 메타 서비스입니다.
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="resource/버킷플레이스.png"
+              alt="버킷플레이스"
+              class="profile"
+            />
+            <p class="name">버킷플레이스</p>
+            <p class="introduce">
+              국내1등 인테리어 공유 서비스 '오늘의집'을 만들어가는 회사입니다.
+            </p>
+          </div>
+          <div class="item add add-btn">
+            <img
+              src="resource/회사추가버튼.svg"
+              alt="회사추가"
+              class="profile"
+            />
+            <p class="name">내 기업 등록</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-3"></div>
+      <div class="section-4"></div>
+      <div class="section-5">
+        <div class="hi">
+          <div class="img-container">
+            <img src="resource/이미지1.png" alt="이미지사진" class="img" />
+            <img src="resource/이미지2.png" alt="이미지사진" class="img img2" />
+          </div>
+          <div class="font">
+            <h1 class="title">로켓펀치는 기업과 개인의</h1>
+            <h1 class="title">소통 채널입니다.</h1>
+            <h3 class="titile2">내가 관심 있는 기업들을 팔로우하고</h3>
+            <h3 class="titile2">그 기업들의 뉴스, 채용 정보 그리고</h3>
+            <h3 class="titile2">투자 정보를 피드에서 발견해 보세요.</h3>
+            <a href="#"> <h5 class="title3">기업 프로필 만들기</h5></a>
+          </div>
+        </div>
+      </div>
+      <div class="section6">
+        <div class="last">
+          <div class="final">
+            <div class="yebin">지금 로켓펀치 가입하기</div>
+            <div><button class="seungje">무료 가입</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
