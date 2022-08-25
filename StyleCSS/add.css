@@ -1,0 +1,105 @@
+.comtentIMG{
+    width: 610px;
+}
+.blueHome{
+    background-color: #4142dd;
+    height: 733px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textBox{
+    margin: 75px 70px 0 0;
+}
+.innerBlueHome .textBox{
+    font-family: 'ChosunSg';
+    color: white;
+}
+.innerBlueHome{
+    display: flex;
+    margin-top: 135px;
+}
+.newsContainer{
+    padding: 136px 0;
+}
+.h1box h1{
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+.pBox p{
+    font-size: 22px;
+    margin: 0 0 11px;
+}
+.pBox{
+    margin-top: 38px;
+    width: 380px;
+}
+.firstPicture img{
+    width: 300px;
+    box-shadow: y-position 50px 50px 50px 50px transparent;
+}
+.picturesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 64px;
+}
+.picturesDiv #orange{
+    margin-right: 110px;
+    position: relative;
+    right: 40px;
+}
+.newsContainer .headTexts{
+    font-family: 'ChosunSg';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.headTexts h1{
+    font-size: 30px;
+    margin: 0 0 14px 0;
+}
+.headTexts p{
+    font-family: 'ChosunSg';
+    margin: 24px 0 0 0;
+    font-size: 22px;
+}
+.headTexts a{
+    margin: 24px 0 0 0;
+    font-weight: bolder;
+    color: #4e61ff;
+    text-decoration: none;
+}
+.costom{
+    top: 50;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: solid 1px rgb(236, 236, 236);
+    position: absolute;
+    z-index: -1;
+    box-shadow: y-position 50px 50px 50px 50px transparent;
+}
+.firstPicture .title{
+    font-family: 'ChosunSg';
+    margin-top: 40px;
+}
+.firstPicture .title h4{
+    margin: 0 0 5px 0;
+}
+.Content .content p{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-family: 'ChosunSg';
+    font-weight: 590;
+}
+.content{
+    margin-top: 16px;
+}
+#notorange{
+    position: relative;
+    left: 355px;
+}
