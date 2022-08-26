@@ -7,12 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원 가입 | 로켓펀치 - 비즈니스 네트워크</title>
     <link rel="stylesheet" href="../style/the.css">
+    <link rel="stylesheet" href="/mainpage/style.css">
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://www.rocketpunch.com/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <section>
+    <header>
+        <div class="nav">
+            <div class="nav-logo">
+                <img src="/mainpage/resource/rocketpunch_logo.svg" alt="로고" class="logo" />
+            </div>
+            <div class="nav-searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchbox" type="text" placeholder="통합 검색" id="searchbox" />
+            </div>
+            <div class="nav-btn">
+                <button class="All-btn">사람</button>
+                <button class="All-btn">기업</button>
+                <button class="All-btn">사람</button>
+                <button class="All-btn">셀프구직</button>
+            </div>
+            <div class="selectBox2">
+                <button class="label">더보기</button>
+                <ul class="optionList">
+                    <li class="optionItem">apple</li>
+                    <li class="optionItem">orange</li>
+                    <li class="optionItem">grape</li>
+                    <li class="optionItem">melon</li>
+                </ul>
+            </div>
+            <div class="user-btn sad">
+                <a href="../PageHTML/Login.html"><button id="user" class="sign-in">로그인</button></a>
+            </div>
+            <div class="user-btn">
+                <a href="../sign_up/img/page/moment.html"> <button id="user" class="sign-up">무료 가입</button></a>
+            </div>
+        </div>
+    </header>
+    <section id="another">
         <div class="imgg">
             <img src="https://static.rocketpunch.com/images/main/onboarding/create.svg" width="430" height="388">
         </div>
@@ -22,7 +55,7 @@
             </div>
             <div class="container__lost">
                 <p>이미 회원이신가요?</p>&nbsp;
-                <a href="#">로그인</a>
+                <a class="hi" href="#">로그인</a>
             </div>
             <div class="signupbox">
                 <a href="#">

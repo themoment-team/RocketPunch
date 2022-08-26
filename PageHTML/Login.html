@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
 <link>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <link rel="stylesheet" href="../StyleCSS/Login.css">
-    <link rel="stylesheet" href="../StyleCSS/footer.css">
-    <link rel="stylesheet" href="../StyleCSS/global.css">
-    <script 
-    src="https://kit.fontawesome.com/0d3908869d.js" 
-    crossorigin="anonymous"
-></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>signup</title>
+<link rel="stylesheet" href="../StyleCSS/Login.css">
+<link rel="stylesheet" href="../StyleCSS/footer.css">
+<link rel="stylesheet" href="../StyleCSS/global.css">
+<link rel="stylesheet" href="../mainpage/style.css">
+<script src="https://kit.fontawesome.com/0d3908869d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+    <header>
+        <div class="nav">
+            <div class="nav-logo">
+                <a href="/mainpage/index.html"><img src="../mainpage/resource/rocketpunch_logo.svg" alt="로고"
+                        class="logo" /></a>
+            </div>
+            <div class="nav-searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchbox" type="text" placeholder="통합 검색" id="searchbox" />
+            </div>
+            <div class="nav-btn">
+                <button class="All-btn">사람</button>
+                <button class="All-btn">기업</button>
+                <button class="All-btn">사람</button>
+                <button class="All-btn">셀프구직</button>
+            </div>
+            <div class="selectBox2">
+                <button class="label">더보기</button>
+                <ul class="optionList">
+                    <li class="optionItem">apple</li>
+                    <li class="optionItem">orange</li>
+                    <li class="optionItem">grape</li>
+                    <li class="optionItem">melon</li>
+                </ul>
+            </div>
+            <div class="user-btn sad">
+                <a href="../PageHTML/Login.html"><button id="user" class="sign-in">로그인</button></a>
+            </div>
+            <div class="user-btn">
+                <a href="../sign_up/img/page/moment.html"> <button id="user" class="sign-up">무료 가입</button></a>
+            </div>
+        </div>
+    </header>
     <div class="centerMenu">
         <div class="fake">'
             <img src="https://static.rocketpunch.com/images/main/onboarding/woman.svg">
@@ -50,7 +83,7 @@
             </div>
             <div class="bottomWords">
                 <p class="LinkAOrNot">회원이 아니신가요? </p>
-                <a class="LinkAOrNot" id="NotThis"> 회원가입</a> 
+                <a class="LinkAOrNot" id="NotThis"> 회원가입</a>
             </div>
         </div>
     </div>
@@ -94,4 +127,5 @@
         </div>
     </footer>
 </body>
+
 </html>
