@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.66666667,44.6669479 L45.3333333,44.6669479 L45.3333333,41.3327708 C45.3333333,36.684977 33.6394879,32.0009053 23.9991256,32.0000001 C14.3622399,32.0009057 2.66666667,36.6865911 2.66666667,41.3327708 L2.66666667,44.6669479 Z M48,41.3327708 L48,47.3336146 L0,47.3336146 L0,41.3327708 C0,33.3548932 15.9880057,29.3340863 23.998875,29.3333334 C32.0119943,29.3340858 48,33.3526433 48,41.3327708 Z M24.001125,23.998875 C17.3725214,23.998875 12.0016875,18.6280411 12.0016875,11.9994375 C12.0016875,5.37083392 17.3702714,0 24.001125,0 C30.6297286,0 36.0005625,5.37083392 36.0005625,11.9994375 C36.0005625,18.6280411 30.6319786,23.998875 24.001125,23.998875 Z M24.001125,21.3322083 C29.1583648,21.3322083 33.3338958,17.1561363 33.3338958,11.9994375 C33.3338958,6.84359325 29.1569693,2.66666667 24.001125,2.66666667 C18.8438852,2.66666667 14.6683542,6.84273866 14.6683542,11.9994375 C14.6683542,17.1552817 18.8452808,21.3322083 24.001125,21.3322083 Z" id="path-1"></path>
+        <path d="M16.6666667,0 C7.46666667,0 0,7.46666667 0,16.6666667 C0,25.8666667 7.46666667,33.3333333 16.6666667,33.3333333 C25.8666667,33.3333333 33.3333333,25.8666667 33.3333333,16.6666667 C33.3333333,7.46666667 25.8666667,0 16.6666667,0 Z M25,18.3333333 L18.3333333,18.3333333 L18.3333333,25 L15,25 L15,18.3333333 L8.33333333,18.3333333 L8.33333333,15 L15,15 L15,8.33333333 L18.3333333,8.33333333 L18.3333333,15 L25,15 L25,18.3333333 Z" id="path-3"></path>
+    </defs>
+    <g id="Home-&gt;-Logged-Out---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-&gt;-Logged-Out-v2---Desktop" transform="translate(-1128.000000, -1131.000000)">
+            <g id="Stacked-Group" transform="translate(0.000000, 860.000000)">
+                <g id="Group-4">
+                    <g id="Stacked-Group-2" transform="translate(205.000000, 111.000000)">
+                        <g transform="translate(0.000000, 160.000000)" id="Stacked-Group-3">
+                            <g>
+                                <g id="Stacked-Group-3-Copy-5" transform="translate(920.000000, 0.000000)">
+                                    <g id="Stacked-Group">
+                                        <g id="Group-8" transform="translate(3.000000, 0.000000)">
+                                            <circle id="Oval-3" stroke="#4E61FF" stroke-width="3" cx="52" cy="52" r="50.5"></circle>
+                                            <g id="Icon/Person/Outline" transform="translate(28.000000, 28.000000)">
+                                                <mask id="mask-2" fill="white">
+                                                    <use xlink:href="#path-1"></use>
+                                                </mask>
+                                                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                                <g id="Color/4e61ff" mask="url(#mask-2)" fill="#4E61FF" fill-rule="evenodd">
+                                                    <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                                                </g>
+                                            </g>
+                                            <g id="Plus" transform="translate(64.000000, 64.000000)">
+                                                <rect id="Rectangle-8" fill="#FFFFFF" x="5" y="5" width="30" height="30" rx="15"></rect>
+                                                <g id="ICON/ic_add_circle_24px">
+                                                    <polygon id="Shape" points="0 0 40 0 40 40 0 40"></polygon>
+                                                    <g id="COLOR" stroke-width="1" fill-rule="evenodd" transform="translate(3.333333, 3.333333)">
+                                                        <mask id="mask-4" fill="white">
+                                                            <use xlink:href="#path-3"></use>
+                                                        </mask>
+                                                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                                        <g id="BG/6-Blue" mask="url(#mask-4)" fill="#4E61FF">
+                                                            <g transform="translate(-23.333333, -23.333333)" id="BG">
+                                                                <rect x="0" y="0" width="80" height="80"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
