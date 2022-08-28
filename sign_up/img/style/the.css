@@ -11,9 +11,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "ChosunGu";
-	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff")
-		format("woff");
 }
 body {
 	width: 100%;
@@ -26,6 +23,9 @@ body {
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
+	font-family: "ChosunGu";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff")
+		format("woff");
 }
 
 .imgg {
