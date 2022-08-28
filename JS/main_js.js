@@ -1,14 +1,16 @@
 const label = document.querySelectorAll('.label');
+const Opction = document.querySelector('.selectBox2 .optionList');
 label.forEach(function (lb) {
     lb.addEventListener('click', e => {
         let optionList = lb.nextElementSibling;
         let optionItems = optionList.querySelectorAll('.optionItem');
         clickLabel(lb, optionItems);
     })
-});
+}); 
 const clickLabel = (lb, optionItems) => {
     if (lb.parentNode.classList.contains('active')) {
         lb.parentNode.classList.remove('active');
+        Opction.classList.remove('OptionList');
         optionItems.forEach((opt) => {
             opt.removeEventListener('click', () => {
                 handleSelect(lb, opt)
@@ -16,6 +18,7 @@ const clickLabel = (lb, optionItems) => {
         })
     } else {
         lb.parentNode.classList.add('active');
+        Opction.classList.add('OptionList');
         optionItems.forEach((opt) => {
             opt.addEventListener('click', () => {
                 handleSelect(lb, opt)

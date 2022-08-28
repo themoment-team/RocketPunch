@@ -42,20 +42,26 @@
 	background: transparent;
 	cursor: pointer;
 }
-
+.OptionList {
+	border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
 .selectBox2 .optionList {
 	margin-top: 10px;
 	position: absolute;
 	top: 28px;
 	left: 0;
-	width: 100%;
+	width: 110%;
 	background-color: white;
 	list-style-type: none;
 	padding: 0;
 	border-radius: 6px;
 	overflow: hidden;
 	max-height: 0;
-	transition: 0.8s ease-in;
+	transition: 0.8s ease-in-out;
+    border-top: solid 0.5px lightgray;
+    border-right: solid 0.5px lightgray;
+    border-left: solid 0.5px lightgray;
 }
 
 .selectBox2 .optionList::-webkit-scrollbar {
@@ -96,9 +102,7 @@
 	justify-content: center;
 	align-items: center;
 }
-.optionList {
-	border: 1px solid lightgray;
-}
+
 
 .selectBox2 {
 	margin: 0;
